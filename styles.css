@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Section Styles */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.home {
+    padding: 4em 0;
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    margin: 0 0 0.5em;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin: 0 0 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 2em;
+    color: #fff;
+    background: #ff4081;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff79a6;
+}
+
+.demos h2, .works h2, .blog h2, .contact h2 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+.demo-gallery, .photo-gallery, .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.demo-item, .photo-item, .blog-post {
+    flex: 1 1 calc(33.333% - 2em);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+.demo-item img, .photo-item img, .blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.demo-item p, .blog-post h3, .blog-post p, .blog-post .author, .blog-post .date {
+    color: #fff;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1em 0;
+    text-align: center;
+}
